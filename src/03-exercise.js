@@ -24,6 +24,11 @@
  */
 function variableTypes() {
   // Create the variables here
+  var textVar = "hello";
+  var numberVar = 2;
+  var falseBoolean = false;
+  var trueBoolean = true;
+  var floatNumber = 1.23;
 
   // Don’t change this code
   return {

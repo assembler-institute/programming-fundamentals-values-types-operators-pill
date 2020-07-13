@@ -6,6 +6,7 @@
  */
 function makeNumber() {
   // Write your code here
+  var myNumber = 23;
 
   // Don’t change this code
   return myNumber;

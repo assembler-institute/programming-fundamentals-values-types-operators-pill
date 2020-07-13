@@ -28,6 +28,15 @@ function compareValues(x, y) {
   let result = "";
 
   // Add your code here
+  if (x === undefined && undefined === undefined) {
+    result = "error";
+  } else if (x < y) {
+    result = "smaller";
+  } else if (x > y) {
+    result = "larger";
+  } else if (x === y) {
+    result = "equal";
+  }
 
   // Don’t change this code
   return result;

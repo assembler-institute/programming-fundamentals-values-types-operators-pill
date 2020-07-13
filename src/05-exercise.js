@@ -37,6 +37,8 @@ learnConsoleLog();
 
 export function learnConsoleLog() {
   // Write your code bellow this line
+
+  console.log("my name is alex");
 }
 
 /**
@@ -48,6 +50,9 @@ export function learnConsoleLog() {
  */
 export function stringTypeofTest() {
   // Write your code bellow this line
+
+  var myVar = "hello";
+  console.log(typeof myVar);
 }
 
 /**
@@ -59,6 +64,9 @@ export function stringTypeofTest() {
  */
 export function numberTypeofTest() {
   // Write your code bellow this line
+
+  var myVar = 23;
+  console.log(typeof myVar);
 }
 
 /**
@@ -70,6 +78,9 @@ export function numberTypeofTest() {
  */
 export function boolTypeofTest() {
   // Write your code bellow this line
+
+  var myVar = false;
+  console.log(typeof myVar);
 }
 
 /**
@@ -82,6 +93,9 @@ export function boolTypeofTest() {
  */
 export function undefinedTypeofTest() {
   // Write your code bellow this line
+
+  var myVar = undefined;
+  console.log(typeof myVar);
 }
 
 /**
@@ -94,6 +108,9 @@ export function undefinedTypeofTest() {
  */
 export function nullTypeofTest() {
   // Write your code bellow this line
+
+  var myVar = null;
+  console.log(typeof myVar);
 }
 
 /**
@@ -105,4 +122,7 @@ export function nullTypeofTest() {
  */
 export function arrTypeofTest() {
   // Write your code bellow this line
+
+  var myVar = [];
+  console.log(typeof myVar);
 }
