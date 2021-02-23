@@ -1,0 +1,95 @@
+`#programming-fundamentals` `#values-types-operators` `#assembler-school` `#master-in-software-development`
+
+# Assembler School: Programming Fundamentals - Values, Types and Operators Exercises <!-- omit in toc -->
+
+With these exercises pill you'll learn how programms are structured.
+
+## Table of Contents <!-- omit in toc -->
+
+- [Getting Started](#getting-started)
+- [Dependencies](#dependencies)
+- [Contents and Branches Naming Strategy](#contents-and-branches-naming-strategy)
+- [Refresher](#refresher)
+- [REST APIs in Node.js](#rest-apis-in-nodejs)
+- [Starting the Server](#starting-the-server)
+- [Defining Routes and Controllers](#defining-routes-and-controllers)
+- [Getting a Single Resource](#getting-a-single-resource)
+- [Creating Resources](#creating-resources)
+- [Updating Resources](#updating-resources)
+- [Deleting a Resource](#deleting-a-resource)
+- [CRUD API Exercises](#crud-api-exercises)
+
+## Getting Started
+
+### The repo
+
+First, you will need to clone the repo:
+
+```bash
+$ git clone https://github.com/assembler-school/programming-fundamentals-values-types-operators-pill
+```
+
+## Dependencies
+
+Before we can get started you will need to make sure that all the necessary dependencies are installed in your system.
+
+### Node.js
+
+You can install it by following the instructions [in the official docs](https://nodejs.org/en/) (we recommend that you install the version that is named _Current_).
+
+To verify that you have installed it correctly, you can run the following command from the terminal that should output the version installed:
+
+```bash
+$ node --version
+```
+
+### Project Dependencies
+
+Then, you will have to install all the project dependencies with npm in the root folder:
+
+```bash
+$ npm install
+```
+
+## Contents and Branches Naming Strategy
+
+The repository is made up of two branches: main and solution.
+
+The main branch contains the exercises with blanks you have to code and the solution branch contains the entire code needed to pass tests. 
+
+- Exercises are inside src folder with this naming strategy `{NN}-exercise`
+
+### Fetch all Branches
+
+In order to fetch all the remote branches in the repository you can use the following command:
+
+```bash
+$ git fetch --all
+
+# List both remote-tracking branches and local branches
+$ git branch --all
+```
+
+Then, you can create a local branch based on a remote branch with the following command:
+
+```bash
+$ git checkout -b <new_branch_name> <remote_branch_name>
+```
+
+## Tests Suites
+
+The test suites for these exercises can be executed with the following script: `npm run test`.
+
+Open the files indicated bellow and read the instructions and requirements of the tests to solve them.
+
+- Once you are done the instructor will solve each step
+- If you get stuck you can find the answers in the `solution` branch
+- Try not to peek at the solutions
+
+## Author <!-- omit in toc -->
+
+[Dani Lucaci](https://github.com/danilucaci)
+
+## License <!-- omit in toc -->
+
+[MIT](https://choosealicense.com/licenses/mit/)
