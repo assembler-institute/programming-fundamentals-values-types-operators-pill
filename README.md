@@ -9,15 +9,7 @@ With these exercises pill you'll learn how programms are structured.
 - [Getting Started](#getting-started)
 - [Dependencies](#dependencies)
 - [Contents and Branches Naming Strategy](#contents-and-branches-naming-strategy)
-- [Refresher](#refresher)
-- [REST APIs in Node.js](#rest-apis-in-nodejs)
-- [Starting the Server](#starting-the-server)
-- [Defining Routes and Controllers](#defining-routes-and-controllers)
-- [Getting a Single Resource](#getting-a-single-resource)
-- [Creating Resources](#creating-resources)
-- [Updating Resources](#updating-resources)
-- [Deleting a Resource](#deleting-a-resource)
-- [CRUD API Exercises](#crud-api-exercises)
+- [Tests Suites](#test-suites)
 
 ## Getting Started
 
