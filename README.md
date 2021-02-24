@@ -51,22 +51,20 @@ The main branch contains the exercises with blanks you have to code and the solu
 
 - Exercises are inside src folder with this naming strategy `{NN}-exercise`
 
-### Fetch all Branches
+### Change between Branches
 
-In order to fetch all the remote branches in the repository you can use the following command:
-
-```bash
-$ git fetch --all
-
-# List both remote-tracking branches and local branches
-$ git branch --all
-```
-
-Then, you can create a local branch based on a remote branch with the following command:
+In order to change between main and solution branches you can use the checkout command:
 
 ```bash
-$ git checkout -b <new_branch_name> <remote_branch_name>
+$ git checkout solution
 ```
+
+You can use diff command to show differences between branches so you can see the solution of the different exercises:
+
+```bash
+$ git diff main..solution .\src\01-exercise.js
+```
+
 
 ## Tests Suites
 
