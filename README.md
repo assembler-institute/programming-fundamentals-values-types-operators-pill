@@ -2,7 +2,7 @@
 
 # Assembler School: Programming Fundamentals - Values, Types and Operators Exercises <!-- omit in toc -->
 
-With these exercises pill you'll learn how programms are structured.
+With these exercises pill you'll learn how to use values types and operators.
 
 ## Table of Contents <!-- omit in toc -->
 
