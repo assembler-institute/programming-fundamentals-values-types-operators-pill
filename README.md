@@ -18,7 +18,7 @@ With these exercises pill you'll learn how to use values types and operators.
 First, you will need to clone the repo:
 
 ```bash
-$ git clone https://github.com/assembler-school/programming-fundamentals-values-types-operators-pill
+$ git clone https://github.com/assembler-school/programming-fundamentals-values-types-operators-pill.git
 ```
 
 ## Dependencies
@@ -72,7 +72,6 @@ The test suites for these exercises can be executed with the following script: `
 
 Open the files indicated bellow and read the instructions and requirements of the tests to solve them.
 
-- Once you are done the instructor will solve each step
 - If you get stuck you can find the answers in the `solution` branch
 - Try not to peek at the solutions
 
