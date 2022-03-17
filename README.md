@@ -1,6 +1,6 @@
-`#programming-fundamentals` `#values-types-operators` `#assembler-school` `#master-in-software-development`
+`#programming-fundamentals` `#values-types-operators` `#assembler-institute` `#master-in-software-development`
 
-# Assembler School: Programming Fundamentals - Values, Types and Operators Exercises <!-- omit in toc -->
+# Assembler Institute: Programming Fundamentals - Values, Types and Operators Exercises <!-- omit in toc -->
 
 With these exercises pill you'll learn how to use values types and operators.
 
