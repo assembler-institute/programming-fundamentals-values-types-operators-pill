@@ -2,20 +2,30 @@
 	"name": "programming-fundamentals-values-types-operators-pill",
 	"version": "1.0.0",
 	"description": "programming-fundamentals-values-types-operators-pill",
-	"main": "index.html",
 	"scripts": {
 		"test": "jest --watchAll",
 		"start": "parcel index.html --open",
 		"build": "parcel build index.html"
 	},
-	"dependencies": {},
+	"jest": {
+		"transform": {
+			".+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$": "jest-transform-stub",
+			"^.+\\.js$": "babel-jest"
+		}
+	},
+	"babel": {
+		"presets": [
+			"@babel/preset-env"
+		]
+	},
 	"devDependencies": {
-		"@babel/core": "^7.2.0",
-		"@babel/preset-env": "^7.10.4",
-		"@types/jest": "^26.0.4",
-		"babel-jest": "^26.1.0",
-		"jest": "^26.1.0",
-		"parcel-bundler": "^1.6.1"
+		"@babel/core": "7.17.7",
+		"@babel/preset-env": "7.16.11",
+		"@types/jest": "27.4.1",
+		"babel-jest": "27.5.1",
+		"jest": "27.5.1",
+		"jest-transform-stub": "2.0.0",
+		"parcel": "2.3.2"
 	},
 	"keywords": []
 }
