@@ -13,6 +13,7 @@
  * @example
  * result = data[2] + " " + data[3]
  */
+
 function threeDimensionalArray() {
   // prettier-ignore
   let fullnames = [
@@ -23,10 +24,11 @@ function threeDimensionalArray() {
     ]
   ];
   let result;
-
   // Add your code here
 
-  // Don’t change this code
+
+
+  // Don’t change the code below this line
   return result;
 }
 

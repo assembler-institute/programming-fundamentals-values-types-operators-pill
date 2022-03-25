@@ -1,14 +1,14 @@
 /**
- * Create a variable
- * named: myVar
- *
- * with the value of:
- * 'hello-world'
+ * Create a variable named: myVar
+ * with the value of: 'hello-world'
  */
+
 function makeVar() {
   // Write your code here
 
-  // Don’t change this code
+
+
+  // Don’t change the code below this line
   return myVar;
 }
 

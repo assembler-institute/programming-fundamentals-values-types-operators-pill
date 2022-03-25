@@ -4,9 +4,9 @@
  * IMPORTANT:
  * You will have to store the value by accesing
  * the exact position in the array,
- *
  * not by copying the value.
  */
+
 function getValueInArray() {
   let fruits = [
     "orange",
@@ -18,10 +18,11 @@ function getValueInArray() {
     "apple"
   ];
   let result;
-
   // Add your code here
 
-  // Don’t change this code
+
+
+  // Don’t change the code below this line
   return result;
 }
 

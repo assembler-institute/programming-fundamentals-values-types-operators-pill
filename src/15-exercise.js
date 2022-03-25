@@ -3,8 +3,9 @@
  *
  * NOTE:
  * You will have to change the value in the 3 position in the array
- * by accessing it’s exact position.
+ * by accessing its exact position.
  */
+
 function changeValueInArray() {
   let fruits = [
     "olives",
@@ -15,10 +16,11 @@ function changeValueInArray() {
     "pineapple",
     "prunes"
   ];
-
   // Add your code here
 
-  // Don’t change this code
+
+
+  // Don’t change the code below this line
   return fruits;
 }
 

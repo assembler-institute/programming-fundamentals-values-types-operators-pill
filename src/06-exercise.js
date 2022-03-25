@@ -19,17 +19,19 @@
  *
  * @example
  * if (a > b && b !== 5) {
- * // first condition
+ *    first condition
  * } else if (a > b && b === 5) {
- * // other condition
+ *    other condition
  * }
  */
+
 function compareValues(x, y) {
   let result = "";
-
   // Add your code here
 
-  // Don’t change this code
+
+
+  // Don’t change the code below this line
   return result;
 }
 

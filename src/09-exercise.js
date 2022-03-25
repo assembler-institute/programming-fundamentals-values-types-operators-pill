@@ -3,14 +3,16 @@
  * dividing the variable 'a' by the variable 'b':
  * a / b
  */
+
 function divide() {
   let a = 20;
   let b = 10;
   let division;
-
   // Add your code here
 
-  // Don’t change this code
+
+
+  // Don’t change the code below this line
   return division;
 }
 
