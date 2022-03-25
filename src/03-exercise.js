@@ -1,27 +1,28 @@
 /**
- * Create a variable of different types
+ * Create variables of different types
  *
  * 1. Create a variable of type string:
- * variable name: textVar
- * variable value: any string
+ * - Variable name: textVar
+ * - Variable value: any string
  *
  * 2. Create a variable of type number:
- * variable name: numberVar
- * variable value: any number
+ * - Variable name: numberVar
+ * - Variable value: any number
  *
  * 3. Create a variable of type boolean:
- * variable name: falseBoolean
- * variable value: false
+ * - Variable name: falseBoolean
+ * - Variable value: false
  *
  * 4. Create a variable of type boolean:
- * variable name: trueBoolean
- * variable value: true
+ * - Variable name: trueBoolean
+ * - Variable value: true
  *
  * 5. Create a variable of type number
  * that stores a floating point number:
- * variable name: floatNumber
- * variable value: 23.5
+ * - Variable name: floatNumber
+ * - Variable value: 23.5
  */
+
 function variableTypes() {
   // Create the variables here
   var textVar = "hello";
@@ -30,7 +31,9 @@ function variableTypes() {
   var trueBoolean = true;
   var floatNumber = 1.23;
 
-  // Don’t change this code
+
+
+  // Don’t change the code below this line
   return {
     textVar: textVar,
     numberVar: numberVar,

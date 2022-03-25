@@ -19,14 +19,14 @@
  *
  * @example
  * if (a > b && b !== 5) {
- * // first condition
+ *    first condition
  * } else if (a > b && b === 5) {
- * // other condition
+ *    other condition
  * }
  */
+
 function compareValues(x, y) {
   let result = "";
-
   // Add your code here
   if (x === undefined && undefined === undefined) {
     result = "error";
@@ -38,7 +38,9 @@ function compareValues(x, y) {
     result = "equal";
   }
 
-  // Don’t change this code
+
+
+  // Don’t change the code below this line
   return result;
 }
 

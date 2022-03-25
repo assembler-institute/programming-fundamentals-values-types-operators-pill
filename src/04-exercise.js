@@ -1,16 +1,11 @@
 /**
- * Create a variable
- * named: undefinedVar
+ * Create a variable named: undefinedVar
+ * with the value of: undefined
  *
- * with the value of:
- * undefined
- *
- * Create a variable
- * named: nullVar
- *
- * with the value of:
- * null
+ * Create a variable named: nullVar
+ * with the value of: null
  */
+
 function makeNullUndefinedVariables() {
   // Write your code here
 
